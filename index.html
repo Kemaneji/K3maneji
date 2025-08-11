@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Услуги: создание сайтов, тех обслуживание ПК</title>
+    <link rel="icon" href="img/LogoK3.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/LogoK3.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-2.css">
+
+</head>
+<body>
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">K3maneji<span>Portfolio</span></div>
+            <div class="loader-animation">
+                <div class="loader-circle"></div>
+                <div class="loader-circle"><img class="logo-type-loader" src="img/LogoK3.png" alt=""></div>
+                <div class="loader-circle"></div>
+            </div>
+            <div class="loader-text">Загрузка портфолио</div>
+            <div class="loader-dots">
+                <div class="loader-dot"></div>
+                <div class="loader-dot"></div>
+                <div class="loader-dot"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification -->
+    <div class="notification" id="notification"></div>
+    
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#home" class="logo"><img class="logo-type" src="img/LogoK3.png" alt="">3maneji<span>Portfolio</span></a>
+                <div class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div id="particles-js"></div>
+        <div class="container">
+            <div class="hero-content animate-on-scroll">
+                <h1>Привет, я <span>Валяев Бекир</span> Веб-разработчик</h1>
+                <p>Создаю современные, адаптивные веб-сайты и приложения с уникальным дизайном и интерактивными функциями.</p>
+                <div class="hero-btns">
+                    <a href="#portfolio" class="btn">Мои работы</a>
+                    <a href="#contact" class="btn btn-outline">Заказать услугу</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text animate-on-scroll">
+                    <h2>Обо <span>мне</span></h2>
+                    <p>Привет! Я профессиональный веб-разработчик с 3-летним опытом создания современных веб-приложений. Специализируюсь на разработке пользовательских интерфейсов и создании интерактивных веб-сайтов, а так же решаю проблемы с гаджетами и разными устройствами такими как телефоны Android и Apple(IOS), ноутбуки, MacOS, компьютеры Windows и тд.</p>
+                    <p>Моя цель - создавать не только красивые, но и функциональные продукты, которые решают бизнес-задачи и приносят реальную пользу клиентам.</p>
+                    <div class="skills">
+                        <span class="skill">HTML5/CSS3</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">React.js</span>
+                        <span class="skill">TypeScript.js</span>
+                        <span class="skill">WordPress</span>
+                        <span class="skill">Tehnology</span>
+                    </div>
+                </div>
+                <div class="about-image animate-on-scroll">
+                    <div class="glow"></div>
+                    <img src="img/Kemaneji.JPG" alt="Веб-разработчик">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="animate-on-scroll">Мои <span>услуги</span></h2>
+            <p class="subtitle animate-on-scroll">Предоставляю широкий спектр услуг по разработке веб-приложений и сайтов, и по техническому обслуживанию устройств.</p>
+            
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Веб-разработка</h3>
+                    <p>Создание адаптивных веб-сайтов и веб-приложений с использованием современных технологий.</p>
+                    <br>
+                    <div class="price">от 3 000₽</div>
+                    <a href="#contact" class="btn">Заказать</a>
+                </div>
+                
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Мобильная разработка</h3>
+                    <p>Разработка кроссплатформенных мобильных приложений с использованием React Native.</p>
+                    <br>
+                    <div class="price">от 15 000₽</div>
+                    <a href="#contact" class="btn">Заказать</a>
+                </div>
+                
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3>Тех. обслуживание</h3>
+                    <p>Установка Windows, решение проблем с устройством на расстоянии, рекомендации по улучшению работоспособности устройства, устранение неполадок.</p>
+                    <div class="price">от 1 000₽</div>
+                    <a href="#contact" class="btn">Заказать</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="animate-on-scroll">Мои <span>работы</span></h2>
+            <p class="subtitle animate-on-scroll">Посмотрите примеры моих последних проектов</p>
+            
+            <div class="portfolio-filters animate-on-scroll">
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="web">Веб-сайты</button>
+                <button class="filter-btn" data-filter="app">Приложения</button>
+                <button class="filter-btn" data-filter="design">Тех обслуживание</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item animate-on-scroll" data-category="web">
+                    <img src="https://avatars.mds.yandex.net/i?id=46e8a99171d9b1d20e9c6c97679834f3_l-12484740-images-thumbs&n=13" alt="Проект 1">
+                    <div class="portfolio-overlay">
+                        <h3>Сайт меню ресторана</h3>
+                        <p>Современный сайт меню для ресторана отеля Narlen</p>
+                        <a href="https://narlen-restoran.github.io/narlen/" class="btn">Подробнее</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item animate-on-scroll" data-category="app">
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Проект 2">
+                    <div class="portfolio-overlay">
+                        <h3>Мобильное приложение</h3>
+                        <p>Приложение для управления финансами</p>
+                        <a href="#contact" class="btn">Подробнее</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item animate-on-scroll" data-category="design">
+                    <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Проект 3">
+                    <div class="portfolio-overlay">
+                        <h3>Обслуживание ПК</h3>
+                        <p>Установка Windows на ваше устройство и решение разных проблем с гаджетами</p>
+                        <a href="#contact" class="btn">Подробнее</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item animate-on-scroll" data-category="web">
+                    <img src="img/magazin.png" alt="Проект 4">
+                    <div class="portfolio-overlay">
+                        <h3>Интернет-магазин</h3>
+                        <p>Полнофункциональный интернет-магазин гаджетов</p>
+                        <a href="#contact" class="btn">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info animate-on-scroll">
+                    <h2>Свяжитесь <span>со мной</span></h2>
+                    <p>Готов к новым проектам! Свяжитесь со мной, и я отвечу в ближайшее время.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Адрес</h4>
+                                <p>Симферополь, Крым</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <i class="fas fa-message"></i>
+                            </div>
+                            <div>
+                                <h4>Telegramm</h4>
+                                <p>@K3maneji</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>bikir.valaevzzz@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/Kemaneji" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://t.me/IT_K3maneji" class="social-link"><i class="fab fa-telegram"></i></a>
+                        <a href="https://vk.com/k3maneji" class="social-link"><i class="fab fa-vk"></i></a>
+                        <a href="https://www.instagram.com/k3maneji?igsh=MWxjY3p0bjNyeHE4dw%3D%3D&utm_source=qr" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form animate-on-scroll">
+                    <h3>Отправить сообщение</h3>
+                    <form id="contactForm" action="https://formspree.io/f/xovlydao" method="POST">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email ( Почта )</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Номер телефона</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" name="message" class="form-control" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="logo">K3maneji<span>Portfolio</span></a>
+                <div class="social-links">
+                    <a href="https://github.com/Kemaneji" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://t.me/IT_K3maneji" class="social-link"><i class="fab fa-telegram"></i></a>
+                    <a href="https://vk.com/k3maneji" class="social-link"><i class="fab fa-vk"></i></a>
+                    <a href="https://www.instagram.com/k3maneji?igsh=MWxjY3p0bjNyeHE4dw%3D%3D&utm_source=qr" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+                <p class="copyright">© 2025 K3manejiPortfolio. Все права защищены. Сайт был создан Валяевым Бекиром.</p>
+            </div>
+        </div>
+    </footer>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/script-2.js"></script>
+    <script src="js/script-3.js"></script>
+</body>
+</html>
